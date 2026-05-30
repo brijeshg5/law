@@ -2,22 +2,22 @@ body{
 	page-orientation:vertical;
 	
 	background-color: #06091b;
-	color: #e1d420;
+	color: #212b97;
 	display: flex;
 	justify-content: center;
-	height: 5oovh;
-	font-family: auto ;
+	height: 1oovh;
+	font-family: arial ;
 	text-align: center;
 	
 	
 }
 .box{
-	background-color= #ecc556;
+	background-color: #e5ec60;
 	padding: 30px;
 	border-radius: 10px;
 	text-align: center;
-	width: 600px;
-	height:300px;
+	width: 200px;
+	height:1000px;
 	
 	
 	
@@ -27,7 +27,7 @@ button{
 	padding: 12px;
 	margin-top: 30px;
 	margin-bottom:42px;
-	background-color: #3bff00;
+	background-color: #185804;
 	border: none;
 	font-size: 19px;
 	cursor: pointer;
@@ -35,22 +35,25 @@ button{
 
 }
 img{
-	padding: 12px;
 	
- 	padding-bottom;
-  	height: 50px
+	
+ 	
+  	height: 100px;
+	width:100px;
+	border-radius:50%;
+	border:2px solid black;
+	object-fit:cover;
+	
+	
 }
 h1{
 	color:red;
 }
-tittle{
-	color:#FFEB3B;
-	font-family:math
-}
+
 a{
-	color:aqua
-	#16fb1f;
-	background-color:#FFEB3B;
+	color:#16fb1f;
+	
+	background-color:#9d464d;
 	
 	width:50;
 	padding: 12px;
@@ -65,3 +68,12 @@ a{
 	
 }
 
+
+
+
+.new{
+	color: red;
+}
+.nb{
+	background-color:white;
+	color:blue;
