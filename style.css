@@ -1,13 +1,13 @@
 body{
 	page-orientation:vertical;
 	
-	background-color: #fbffcf;
+	background-color: #06091b;
 	color: #212b97;
 	display: flex;
 	justify-content: center;
 	height: 1oovh;
 	align-items: center;
-	
+	padding:10px;
 	font-family: arial ;
 	text-align: center;
 	
@@ -15,11 +15,11 @@ body{
 }
 .box{
 	background-color: #f7fffe;
-	padding: 75px;
+	padding: 30px;
 	border-radius: 10px;
 	text-align: center;
-	width: 100%;
-	max-width: 792px;
+	width: 95%;
+	max-width: 600px;
 	margin: 0 auto;
 	min-height: 300px;
 	height:auto;
@@ -37,7 +37,7 @@ button{
 	border: none;
 	font-size: 19px;
 	cursor: pointer;
-	color:rgb(234 233 218)
+	color:rgb(246 196 228)
 
 }
 img{
@@ -49,17 +49,22 @@ img{
 	border-radius:50%;
 	border:2px solid black;
 	object-fit:cover;
+
 	
 	
+}
+img:hover{
+	transform:scale(1.05);inherit
+	transition:0.3s;
 }
 h1{
 	color:red;
 }
 
 a{
-	color:#16fb1f;
+	color:#062007;
 	
-	background-color:#00000000;
+	background-color:#d6cccd;
 	
 	width:50;
 	padding: 12px;
@@ -81,7 +86,7 @@ a{
 	color: red;
 }
 .nb{
-	background-color:#facbcb;
+	background-color:white;
 	color:blue;
 
 }
@@ -108,7 +113,7 @@ a{
 		
 	}
 	a{
-		background-color: #ffffff;
+		background-color: #00000000;
 	}
 	img:hover{
 		transform:scale(1.05);inherit
@@ -124,7 +129,7 @@ a{
 		border:none;
 	}
 	a{
-		background-color:white;
+		background-color:#00000000;
 	}
 	img:hover {
 		transform:scale(1.5);inherit
@@ -133,22 +138,45 @@ a{
 	}
 }
 
-@media (min-width: 90px) and (max-width:768px){
+@media (min-width: 79px) and (max-width:779px){
 	.box{
 		width:100%;
-		padding: 75px;
-		height:auto;
-		
-	}
-	
+		padding: 70px;
+		align-items: center;
 		
 	}
 	h1{
 		font-size:38px;
 		
 	}
-	button{
-		font-size:16px;
+	img{
+		height:100px;
+		width:100px;
 	}
+	p{
+		font-size:26px;
+	}
+	button{
+		font-size:26px;
+	}
+	a{
+		font-size:22px;
+	}
+	.new{
+		font-size:40px;
+	}
+	.nb{
+		font-size:28px;
+		background-color:gold
+	}
+	.ram{
+		font-size:27px;
+		font-family:cursive;
+		background-color:#e2f2ae
+	}
+	.sm{
+		40px;
+	}
+}
 	
 }
