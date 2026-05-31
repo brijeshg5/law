@@ -6,6 +6,8 @@ body{
 	display: flex;
 	justify-content: center;
 	height: 1oovh;
+	align-items: center;
+	padding:10px;
 	font-family: arial ;
 	text-align: center;
 	
@@ -16,8 +18,12 @@ body{
 	padding: 30px;
 	border-radius: 10px;
 	text-align: center;
-	width: 200px;
-	height:1100px;
+	width: 95%;
+	max-width: 600px;
+	margin: 0 auto;
+	min-height: 300px;
+	height:auto;
+	
 	
 	
 	
