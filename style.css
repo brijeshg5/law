@@ -133,15 +133,18 @@ a{
 	}
 }
 
-@media (min-width: 792px) and (max-width:1311px){
+@media (min-width: 90px) and (max-width:768px){
 	.box{
 		width:100%;
-		padding: 20px;
+		padding: 75px;
+		height:auto;
+		
+	}
 	
 		
 	}
 	h1{
-		font-size:28px;
+		font-size:38px;
 		
 	}
 	button{
