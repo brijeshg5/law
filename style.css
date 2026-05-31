@@ -12,12 +12,12 @@ body{
 	
 }
 .box{
-	background-color: #e5ec60;
+	background-color: #f7fffe;
 	padding: 30px;
 	border-radius: 10px;
 	text-align: center;
 	width: 200px;
-	height:1000px;
+	height:1100px;
 	
 	
 	
@@ -77,3 +77,69 @@ a{
 .nb{
 	background-color:white;
 	color:blue;
+
+}
+.sm{
+	img{
+		border:none;
+		
+	}
+	a{
+		background-color: #ffffff;
+	}
+	img:hover{
+		transform:scale(1.05);inherit
+		transition:0.3s;
+	}
+}
+.co{
+
+	margin-top:50px;
+	img{
+		border:none;
+		height:40px;
+		width:40px;
+		
+	}
+	a{
+		background-color: #ffffff;
+	}
+	img:hover{
+		transform:scale(1.05);inherit
+		transition:0.3s;
+	}
+	
+}
+.cot{
+	margin-top:5px;
+	img{
+		height:40px;
+		width:40px;
+		border:none;
+	}
+	a{
+		background-color:white;
+	}
+	img:hover {
+		transform:scale(1.5);inherit
+		transition:0.3s;
+		
+	}
+}
+
+@media (max-width:768px){
+	.box{
+		width:100%;
+		padding: 20px;
+	
+		
+	}
+	h1{
+		font-size:28px;
+		
+	}
+	button{
+		font-size:16px;
+	}
+	
+}

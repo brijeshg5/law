@@ -9,7 +9,7 @@ async function getJoke(){
 async function getNews() {
     let apiKey = "5b94e73867819dcbad981dabcd79e9a1";
 
-    let url = `"https://gnews.io/api/v4/search?q=law&lang=en&max=5&apikey="+(apiKey)`;
+    let url = "https://gnews.io/api/v4/search?q=law&lang=en&max=5&apikey="+(apiKey);
 
     try {
         let response = await fetch(url);
@@ -35,9 +35,8 @@ async function getNews() {
     } catch (error) {
         console.error("Error:", error);
         document.getElementById("news").innerHTML =
-            "News load nahi hui.";
+            "Mai Braj Aap Darshkon Ka Apne Is New Website Par SWagt Karta Hu .";
     }
 }
 
 getNews();
-
