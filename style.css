@@ -1,13 +1,13 @@
 body{
 	page-orientation:vertical;
 	
-	background-color: #06091b;
+	background-color: #fbffcf;
 	color: #212b97;
 	display: flex;
 	justify-content: center;
 	height: 1oovh;
 	align-items: center;
-	padding:10px;
+	
 	font-family: arial ;
 	text-align: center;
 	
@@ -15,11 +15,11 @@ body{
 }
 .box{
 	background-color: #f7fffe;
-	padding: 30px;
+	padding: 75px;
 	border-radius: 10px;
 	text-align: center;
-	width: 95%;
-	max-width: 600px;
+	width: 100%;
+	max-width: 792px;
 	margin: 0 auto;
 	min-height: 300px;
 	height:auto;
@@ -37,7 +37,7 @@ button{
 	border: none;
 	font-size: 19px;
 	cursor: pointer;
-	color:rgb(246 196 228)
+	color:rgb(234 233 218)
 
 }
 img{
@@ -59,7 +59,7 @@ h1{
 a{
 	color:#16fb1f;
 	
-	background-color:#9d464d;
+	background-color:#00000000;
 	
 	width:50;
 	padding: 12px;
@@ -81,7 +81,7 @@ a{
 	color: red;
 }
 .nb{
-	background-color:white;
+	background-color:#facbcb;
 	color:blue;
 
 }
@@ -91,7 +91,7 @@ a{
 		
 	}
 	a{
-		background-color: #ffffff;
+		background-color: #00000000;
 	}
 	img:hover{
 		transform:scale(1.05);inherit
@@ -133,7 +133,7 @@ a{
 	}
 }
 
-@media (max-width:768px){
+@media (min-width: 792px) and (max-width:1311px){
 	.box{
 		width:100%;
 		padding: 20px;
